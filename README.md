@@ -1,4 +1,4 @@
-# 🧬 Two-Stage Molecular Generator
+# 🧬 Allogen: A Protein Dynamics-Conditioned Cross-Modal Transformer Framework for Allosteric Drug Design
 
 A molecular generation model adapted from cMolGPT. It supports conditional molecular generation using protein-dynamics features represented by root-mean-square fluctuation (RMSF).
 
