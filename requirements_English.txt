@@ -1,0 +1,20 @@
+# Core deep learning framework
+# Install a PyTorch build compatible with your system and CUDA setup.
+# For CUDA-enabled installations, use the command recommended by:
+# https://pytorch.org/get-started/locally/
+torch>=2.0.0
+
+# Numerical computing
+numpy>=1.21.0
+
+# Molecular processing and evaluation (optional)
+# Conda installation is often the most reliable option:
+# conda install -c conda-forge rdkit
+rdkit>=2022.9.0
+
+# Notes:
+# 1. Choose a PyTorch build that matches your CUDA environment if using GPU acceleration.
+# 2. RDKit can also be installed with conda: conda install -c conda-forge rdkit
+# 3. Place the training data files in the project root:
+#    - train.smi
+#    - test.smi
